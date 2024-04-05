@@ -3,18 +3,7 @@
   "builds": [
     {
       "src": "./index.js",
-      "use": "@vercel/node",
-      "env": {
-        "TELEGRAM_BOT_TOKEN": "7018886601:AAHdsboUMBuufvr_Gejd2xfngah2YFAICH0",
-
-        "MONGO_URL": "mongodb+srv://bogdanzinkiwskuy2:37aloD6wZTjlCaGv@cluster0.b6axvb3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/"
+      "use": "@vercel/node"
     }
   ]
 }
