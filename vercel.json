@@ -10,5 +10,11 @@
         "MONGO_URL": "mongodb+srv://bogdanzinkiwskuy2:37aloD6wZTjlCaGv@cluster0.b6axvb3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
       }
     }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
   ]
 }
